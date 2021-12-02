@@ -1,0 +1,43 @@
+//
+// _footer.scss
+//
+
+.footer {
+    bottom: 0;
+    padding: 20px calc(#{$grid-gutter-width} / 2);
+    position: absolute;
+    right: 0;
+    color: $footer-color;
+    left: 250px;
+    height: 60px;
+    //height: $footer-height;
+    background-color: $footer-bg;
+}
+
+// Enlarge menu
+.vertical-collpsed {
+    .footer {
+        left: $sidebar-collapsed-width;
+    }
+}
+
+body[data-layout="horizontal"] {
+    .footer {
+        left: 0 !important;
+    }
+}
+
+@media  (max-width: 1000px) {
+ .footer{
+     left: 0px;
+     //text-align: center;
+ }
+}
+@media  (max-width: 560px) {
+ .footer{
+     text-align: center;
+ }
+    .d-none{
+        display: block !important;
+    }
+}

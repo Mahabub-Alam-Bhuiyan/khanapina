@@ -1,0 +1,56 @@
+//
+//Notifications.scss
+//
+
+
+.notification-top {
+  margin: 50px 0 25px 0;
+  padding: 0 ;
+}
+.notification-option {
+  display: flex;
+}
+.notification-option a {
+  color: white;
+  margin-left: 20px;
+  //color: #3b3a3a;
+  text-decoration: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.notification-option a:first-child {
+  margin-left: 0;
+}
+.notification-option a:hover {
+  border-bottom: 1px solid #37a7e3;
+}
+.notification {
+  padding: 10px 10px !important;
+  margin:5px 0 0 0 !important;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #b3aeae;
+}
+.jumbotron {
+  padding: 0px;
+}
+.task-info,
+.warning {
+  padding: 10px;
+}
+.warning {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.warning p {
+  margin-bottom: 0px;
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.notification hr {
+  margin: 0;
+}

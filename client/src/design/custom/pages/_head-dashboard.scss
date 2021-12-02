@@ -1,0 +1,78 @@
+//
+// Head dashboard.scss
+//
+
+
+.headDash {
+  padding: 20px 0;
+  width: 100%;
+}
+.team-section {
+  padding: 20px 0;
+}
+.team-table-head {
+  padding: 0px;
+  margin: 30px 0 20px;
+}
+//.bar-area h3,.pie-area h3{
+//  margin-top: 30px !important;
+//}
+
+/* Card Area */
+//
+//.task-list li {
+//  text-decoration: none;
+//  list-style: none;
+//}
+//b-card-text hr {
+//  margin: 0px !important;
+//}
+//.from-input:focus {
+//  box-shadow: none !important;
+//  outline: 0 !important;
+//}
+//.create-team:focus,
+//.btn-success:focus {
+//  outline: 0 !important;
+//  box-shadow: none !important;
+//}
+//.team-table-head {
+//  padding: 0px;
+//  margin: 30px 0 20px;
+//}
+/*Modal*/
+
+
+.add-team-member {
+  display: flex;
+  justify-content: space-between;
+}
+.member-add-box {
+  width: 60%;
+}
+.member-add-box:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.no-team {
+  padding: 100px;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+
+
+.chartjs-render-monitor label{
+  color: transparent;
+  background-color: #0c0c0c;
+}
+.pie{
+  width: 300px !important;
+  margin: 0 auto;
+  height: 300px !important;
+}
+#doughnut-chart {
+  width: 300px !important;
+  margin: 0 auto;
+  height: 300px !important;
+}

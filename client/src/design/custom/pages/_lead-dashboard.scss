@@ -1,0 +1,81 @@
+
+//
+// Lead dashboard.scss
+//
+
+
+.headDash{
+  padding: 20px 0;
+}
+.team-list{
+  padding: 10px;
+}
+
+.leader-team{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+}
+.common-btn{
+  border: 1px solid rgba(0,0,0,0.125);
+  background-color: transparent;
+  color: black;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+.common-btn:hover{
+  background-color: #2a3042;
+  color: white;
+}
+.common-btn:focus{
+  outline: none;
+}
+
+.bar-area , .pie-area{
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.task-list li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.employee-profile{
+  padding: 10px;
+}
+.employee-profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #7a0c0c;
+  margin-bottom: 10px;
+}
+.check-board{
+  padding: 10px;
+}
+.show-task{
+  margin-top: 10%;
+}
+//.employee-profile .div{
+//  padding-left: 20px;
+//  margin-top: 30px;
+//}
+.attendance {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+}
+.attendance h4{
+  padding-bottom: 10px;
+}

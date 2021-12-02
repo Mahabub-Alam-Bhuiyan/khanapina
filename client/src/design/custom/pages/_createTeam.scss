@@ -1,0 +1,51 @@
+//
+//create Team.scss
+//
+
+
+.team-section {
+  padding: 20px 0;
+}
+
+.task-list li {
+  text-decoration: none;
+  list-style: none;
+}
+b-card-text hr {
+  margin: 0px !important;
+}
+.from-input:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.create-team:focus,
+.btn-success:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+//.team-table-head {
+//  padding: 0px;
+//  margin: 30px 0 20px;
+//}
+.form-group {
+  margin: 10px 0;
+  padding: 0;
+}
+.add-team-member {
+  display: flex;
+  justify-content: space-between;
+}
+.member-add-box {
+  width: 60%;
+}
+.member-add-box:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.no-team {
+  width: 250px !important;
+  color: black !important;
+  padding: 0 !important;
+  margin: 150px auto;
+
+}
